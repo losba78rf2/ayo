@@ -2,14 +2,41 @@
     text-align: center;
     color: white;
     height: 700px;
-    background: url(https://media.discordapp.net/attachments/1134058154733355038/1184473306271846511/adfgdfgsdfg.png?ex=658c19ba&is=6579a4ba&hm=0a49cbf7347a1dcb3a7e51c406c6fdfb585fe34cd399a06e1ce1a79b4f0fff56&=&format=webp&quality=lossless&width=1193&height=671);
+    background: url(https://media.discordapp.net/attachments/1134058128846106684/1184420503390261258/nedols.png?ex=658be88d&is=6579738d&hm=c01b870c15f39b60fb2c3f83dde353cc4c3be52d6340daf714c909c078d74129&=&format=webp&quality=lossless&width=1193&height=671);
+}
+
+.second{
+  height: 2000px;
+  text-align: center;
+  background: url(https://media.discordapp.net/attachments/1134058128846106684/1184643960614961182/greeno247.png?ex=658cb8a9&is=657a43a9&hm=c9e600f4ffe53bf91df5ca6b5b469237f78a666d8c7b4145cc3435da3450c226&=&format=webp&quality=lossless&width=1193&height=671);
+}
+
+
+@media (max-width: 480px) {
+  .second{
+    height: 3500px;
+  }
 }
 
 
 
+@media (max-width: 720px) {
+  .second{
+    height: 3500px;
+  }
 
+  .kik{
+    width:220px ;
+    height:3 00px;
+  }
+}
 
+@media (max-width: 1080px) {
+  .second{
+    height: 4000px;
+  }
 
+}
 
 
 
@@ -69,7 +96,8 @@
     font-weight: 600;
   }
   .card-body:hover {
-    transition: 0.3s;
+    
+    transition: 0.3s ease;
     padding: 30px 20px;
     text-align: center;
     font-size: 18px;
@@ -90,6 +118,7 @@
     border-radius:300px;
   }
   .card-body .btn:hover {
+    transition: 0.3s ease;
     display: block;
     color: #ffffff;
     text-align: center;
